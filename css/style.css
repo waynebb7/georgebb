@@ -18,7 +18,7 @@ columbia-blue: #cce6f4ff; */
     flex-direction: column;
     display: flex;
     /* background: rgb(217, 230, 245); */
-    background: rgb(11, 11, 95);
+    background: rgba(61, 12, 70, 0.277);
     margin: 10px;
     border-radius: 5px;
     padding: 10px;
