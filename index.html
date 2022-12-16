@@ -20,6 +20,8 @@
 </head>
 
 <body>
+
+    <!-- Top Collapsible -->
     <button type="button" class="collapsible">Crypto Companies</button>
     <div class="content">
         <div class="flex-item">
@@ -28,85 +30,120 @@
     </div>
 
 
+    <!-- 3 Boxes in a row -->
+    <div class="flex-container-horz">
+        <div class="flex-item-horz">
+
+            <div class="flex-container">
+                <div class="flex-item">1</div>
+                <div class="flex-item">2</a></div>
+                <div class="flex-item">3</a></div>
+            </div>
 
 
 
-
-
-
-    <div class="flex-item">
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-            <div id="tradingview_8ad4b"></div>
-            <div class="tradingview-widget-copyright"><a
-                    href="https://www.tradingview.com/symbols/XRP/?exchange=CRYPTOCAP" rel="noopener"
-                    target="_blank"><span class="blue-text">XRP Chart</span></a> by TradingView</div>
-            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-            <script type="text/javascript">
-                new TradingView.widget(
-                    {
-                        "width": 375,
-                        "height": 340,
-                        "symbol": "CRYPTOCAP:XRP",
-                        "interval": "240",
-                        "timezone": "Europe/London",
-                        "theme": "dark",
-                        "style": "1",
-                        "locale": "en",
-                        "toolbar_bg": "#f1f3f6",
-                        "enable_publishing": false,
-                        "allow_symbol_change": true,
-                        "container_id": "tradingview_8ad4b"
-                    }
-                );
-            </script>
+            <h2>Daily</h2>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_e9259"></div>
+                <div class="tradingview-widget-copyright"><a
+                        href="https://www.tradingview.com/symbols/XRPGBP/?exchange=BINANCE" rel="noopener"
+                        target="_blank"><span class="blue-text">XRPGBP Chart</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            "autosize": true,
+                            "symbol": "BINANCE:XRPGBP",
+                            "interval": "D",
+                            "timezone": "Etc/UTC",
+                            "theme": "dark",
+                            "style": "1",
+                            "locale": "en",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "container_id": "tradingview_e9259"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
         </div>
-        <!-- TradingView Widget END -->
+
+
+        <div class="flex-item-horz">
+            <h2>4 Hour</h2>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_21203"></div>
+                <div class="tradingview-widget-copyright"><a
+                        href="https://www.tradingview.com/symbols/XRPGBP/?exchange=BINANCE" rel="noopener"
+                        target="_blank"><span class="blue-text">XRPGBP Chart</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            "width": 480,
+                            "height": 600,
+                            "symbol": "BINANCE:XRPGBP",
+                            "interval": "240",
+                            "timezone": "Etc/UTC",
+                            "theme": "dark",
+                            "style": "1",
+                            "locale": "en",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "container_id": "tradingview_21203"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+
+
+        <div class="flex-item-horz">
+            <h2>1 Hour</h2>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_44f28"></div>
+                <div class="tradingview-widget-copyright"><a
+                        href="https://www.tradingview.com/symbols/XRPGBP/?exchange=BINANCE" rel="noopener"
+                        target="_blank"><span class="blue-text">XRPGBP Chart</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            "width": 960,
+                            "height": 600,
+                            "symbol": "BINANCE:XRPGBP",
+                            "interval": "60",
+                            "timezone": "Etc/UTC",
+                            "theme": "dark",
+                            "style": "1",
+                            "locale": "en",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "container_id": "tradingview_44f28"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
     </div>
 
-    <div class="flex-item">
-        <!-- TradingView Widget BEGIN -->
-        <div class="tradingview-widget-container">
-            <div id="tradingview_5ad8b"></div>
-            <div class="tradingview-widget-copyright"><a
-                    href="https://www.tradingview.com/symbols/ETHUSDT/?exchange=BINANCE" rel="noopener"
-                    target="_blank"><span class="blue-text">ETHUSDT Chart</span></a> by TradingView</div>
-            <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
-            <script type="text/javascript">
-                new TradingView.widget(
-                    {
-                        "width": 375,
-                        "height": 340,
-                        "symbol": "BINANCE:ETHUSDT",
-                        "interval": "240",
-                        "timezone": "Europe/London",
-                        "theme": "dark",
-                        "style": "1",
-                        "locale": "en",
-                        "toolbar_bg": "#f1f3f6",
-                        "enable_publishing": false,
-                        "allow_symbol_change": true,
-                        "container_id": "tradingview_5ad8b"
-                    }
-                );
-            </script>
-        </div>
-        <!-- TradingView Widget END -->
-    </div>
 
 
 
 
 
 
-
-
-
-
-
-
-
-
+    <div class="flex-item">Placeholder</div>
+    <div class="flex-item">Placeholder</div>
 
 
 
@@ -203,7 +240,11 @@
                 ea commodo consequat.</p>
         </div>
 
-
+        <div class="flex-container-horz">
+            <div class="flex-item-horz">1</div>
+            <div class="flex-item-horz">2</a></div>
+            <div class="flex-item-horz">3</a></div>
+        </div>
 
         <script>
             var coll = document.getElementsByClassName("collapsible");
