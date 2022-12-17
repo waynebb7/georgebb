@@ -47,6 +47,23 @@ columbia-blue: #cce6f4ff; */
     /* align-items: center; */
     /* align-content: center; */
 }
+.flex-container-horz-menu {
+    flex-direction: row;
+    display: flex;
+    /* background: rgb(217, 230, 245); */
+    background: #2c2c34ff;
+    margin: 10px;
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+    font-size: 12px;
+    /* height: 500; */
+    /* max-width: 450px; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
 .flex-item {
     flex: 1 1 auto;
     /* background-color: lightsteelblue; */
@@ -68,6 +85,19 @@ columbia-blue: #cce6f4ff; */
     padding: 10px;
     margin: 10px;
     border-radius: 5px;
+    height: 500;
+    /* max-width: 400px; */
+}
+.flex-item-horz-menu {
+    flex: 1 1 auto;
+    flex-direction: row;
+    /* background-color: lightsteelblue; */
+    background-color: #fff275ff;
+    box-sizing: border-box;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    /* border-radius: 5px; */
     height: 500;
     /* max-width: 400px; */
 }
@@ -138,3 +168,21 @@ Align-content
     Flex-start
     Flex-end
     Center */
+
+
+    .header-bar {
+        position: relative;
+        display: -ms-flexbox;
+        display: -ms-flex;
+        display: flex;
+        /* ms-align-items: stretch; */
+        /* ms-flex-align: stretch; */
+        align-items: stretch;
+        /* ms-align-content: stretch; */
+        align-content: stretch;
+        /* ms-flex-line-pack: stretch; */
+        /* ms-flex-pack: space-between; */
+        /* ms-justify-content: space-between; */
+        justify-content: space-between;
+        /* ms-flex-pack: justify; */
+    }
