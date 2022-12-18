@@ -4,6 +4,7 @@
     text-decoration: none;
     list-style: none;
     box-sizing: border-box;
+    /* background-color: #0082e6; */
 }
 body {
     font-family: Arial, Helvetica, sans-serif;
@@ -29,7 +30,7 @@ nav ul li {
     line-height: 80px;
     margin: 0 5px;
 }
-nav ul li a {
+nav ul li a, h2 {
     color: white;
     font-size: 17px;
     padding: 7px 13px;
@@ -99,4 +100,85 @@ section {
     background: url(bg2.jpeg) no-repeat;
     background-size: cover;
     height: calc(100vh - 80px);
+}
+
+/* Flex-Box Styles */
+.flex-container {
+    flex-direction: column;
+    display: flex;
+    /* background: rgb(217, 230, 245); */
+    background: #2b87ca;
+    margin: 1px;
+    border-radius: 5px;
+    padding: 1px;
+    font-size: 12px;
+    height: 500px;
+    /* max-width: 450px; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.flex-container-horz {
+    flex-direction: row;
+    display: flex;
+    /* background: rgb(217, 230, 245); */
+    background: #2c2c34ff;
+    margin: 10px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 12px;
+    height: 500px;
+    /* max-width: 450px; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.flex-container-horz-menu {
+    flex-direction: row;
+    display: flex;
+    /* background: rgb(217, 230, 245); */
+    background: #2c2c34ff;
+    margin: 10px;
+    /* border-radius: 5px; */
+    /* padding: 10px; */
+    font-size: 12px;
+    /* height: 500; */
+    /* max-width: 450px; */
+    /* flex-wrap: wrap; */
+    /* flex-flow: row wrap; */
+    /* justify-content: left; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.flex-item {
+    flex: 1 1 auto;
+    /* background-color: lightsteelblue; */
+    background-color: #041726;
+    box-sizing: border-box;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    /* height: 500; */
+    /* max-width: 400px; */
+}
+.flex-item-horz {
+    flex: 1 1 auto;
+    flex-direction: row;
+    /* background-color: lightsteelblue; */
+    background-color: #041726;
+    box-sizing: border-box;
+    border: 1px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    /* height: 500; */
+    /* max-width: 400px; */
+}
+.tradingview-widget-container {
+    height: 500px;
 }

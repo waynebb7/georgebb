@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Crypto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
+</head>
+
+<body>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo">Crypto</label>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="currencies.html">Currencies</a></li>
+            <li><a class="active" href="research.html">Research</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About Us</a></li>
+        </ul>
+    </nav>
+    <!-- <section style="background-image: url('bg4.jpeg');"></section> -->
+    <div class="flex-container">
+        <div class="flex-item">
+            <h2>1 Hour</h2>
+            <!-- TradingView Widget BEGIN -->
+            <div class="tradingview-widget-container">
+                <div id="tradingview_150e6"></div>
+                <div class="tradingview-widget-copyright"><a
+                        href="https://www.tradingview.com/symbols/BTCGBP/?exchange=COINBASE" rel="noopener"
+                        target="_blank"><span class="blue-text">BTCGBP chart</span></a> by TradingView</div>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget(
+                        {
+                            "width": 980,
+                            "height": 610,
+                            "symbol": "COINBASE:BTCGBP",
+                            "interval": "240",
+                            "timezone": "Etc/UTC",
+                            "theme": "dark",
+                            "style": "1",
+                            "locale": "en",
+                            "toolbar_bg": "#f1f3f6",
+                            "enable_publishing": false,
+                            "allow_symbol_change": true,
+                            "container_id": "tradingview_150e6"
+                        }
+                    );
+                </script>
+            </div>
+            <!-- TradingView Widget END -->
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+<!-- Notes: The background image doesn't work. 6:58 in the YouTube video. https://www.youtube.com/watch?v=oLgtucwjVII -->
